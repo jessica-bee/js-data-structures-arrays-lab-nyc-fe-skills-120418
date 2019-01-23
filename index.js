@@ -22,3 +22,8 @@ function prependDriver (newStartName){
   newDrivers.unshift(newStartName)
   return newDrivers
 }
+function removeLastDriver(removeLastDriver){
+  let newNewDrivers = drivers.slice()
+  newNewDrivers.pop()
+  return newNewDrivers
+}
