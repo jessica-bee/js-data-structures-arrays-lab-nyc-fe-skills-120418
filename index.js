@@ -12,12 +12,12 @@ function destructivelyRemoveLastDriver(removeLastName){
 function destructivelyRemoveFirstDriver(removeFirstName){
   drivers.shift()
 }
-function appendDriver (newName){
+function appendDriver(newName){
   let oldDrivers = drivers.slice()
   oldDrivers.push(newName)
   return oldDrivers
 }
-function prependDriver (newStartName){
+function prependDriver(newStartName){
   let newDrivers = drivers.slice()
   newDrivers.unshift(newStartName)
   return newDrivers
@@ -26,4 +26,9 @@ function removeLastDriver(removeLastDriver){
   let newNewDrivers = drivers.slice()
   newNewDrivers.pop()
   return newNewDrivers
+}
+function removeFirstDriver(removeFirstDriver){
+  let oldOldDrivers - drivers.slice()
+  oldOldDrivers.shift()
+  return oldOldDrivers
 }
