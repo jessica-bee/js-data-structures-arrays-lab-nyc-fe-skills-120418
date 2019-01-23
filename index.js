@@ -12,5 +12,7 @@ function destructivelyRemoveLastDriver(removeLastName){
 function destructivelyRemoveFirstDriver(removeFirstName){
   drivers.shift()
 }
-function appendDriver (unchanged){
-  drivers.length=0
+function appendDriver (newName){
+  let oldDrivers = drivers.slice()
+  oldDrivers.push(newName)
+}
