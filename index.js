@@ -17,3 +17,8 @@ function appendDriver (newName){
   oldDrivers.push(newName)
   return oldDrivers
 }
+function prependDriver (newStartName){
+  let newDrivers = drivers.slice()
+  newDrivers.unshift(newStartName)
+  return newDrivers
+}
