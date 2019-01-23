@@ -27,8 +27,3 @@ function removeLastDriver(removeLastDriver){
   newNewDrivers.pop()
   return newNewDrivers
 }
-function removeFirstDriver(removeFirstDriver){
-  let oldOldDrivers - drivers.slice()
-  oldOldDrivers.shift()
-  return oldOldDrivers
-}
