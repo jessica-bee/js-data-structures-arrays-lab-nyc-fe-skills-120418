@@ -14,4 +14,3 @@ function destructivelyRemoveFirstDriver(removeFirstName){
 }
 function appendDriver (unchanged){
   drivers.length=0
-}
